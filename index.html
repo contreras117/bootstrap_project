@@ -17,18 +17,55 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <header id="header-container"> <!-- Tipos de contenedores en bootstrap: container y container-fluid. container declara margenes a los lados ajustandose al tamaño de la pantalla. -->
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-3">
-            <H1>Imperial Shop</H1>
-          </div>
-          <div class="col-3 text-right">
-            <a href="#">Login</a>
+
+    <!-- Header -->
+      <header id="header-container"> <!-- Tipos de contenedores en bootstrap: container y container-fluid. container declara margenes a los lados ajustandose al tamaño de la pantalla. -->
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-3">
+              <H1>Imperial Shop</H1>
+            </div>
+            <div class="col-3 text-right">
+              <a href="#">LOGIN</a>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    <!-- /Header -->
+
+    <!-- Menu -->
+      <nav id="menu-container" class="navbar navbar-expand navbar-light">
+        <div class="container d-block">
+          <div class="row justify-content-center justify-content-md-start">
+            <div class="col-10 col-md-5 text-center text-md-left">
+              <ul class="nav navbar-nav justify-content-center justify-content-md-start">
+                <li class="nav-item active">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Carrito</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 offset-md-1">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="¿Encontró lo que buscaba?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-busqueda" type="button">
+                      Buscar
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- /Menu -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

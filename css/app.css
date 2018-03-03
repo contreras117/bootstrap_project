@@ -20,3 +20,32 @@ body h1{
 #header-container a:hover{
 	color: #f2f2f2;
 }
+
+#menu-container{
+  background: #f7f7f9;
+}
+
+.btn.btn-busqueda{
+  background: #020202;
+  color: #f2f2f2;
+}
+
+.btn.btn-busqueda:hover{
+  background: #FF1111;
+  color: #f2f2f2;
+}
+
+input.form-control:focus{
+  border-color: #020202;
+  box-shadow: none;
+}
+
+
+/* .row{
+  border: 1px solid red;
+}
+
+.row div{
+  border: 1px solid blue;
+}
+ */
