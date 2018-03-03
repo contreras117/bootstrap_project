@@ -1,0 +1,9 @@
+Bootstrap maneja 5 tamaños:
+Extra small < 544px
+Small >= 544px
+Medium >= 768px
+Large >= 992px
+Extra Large >= 1200px
+
+Mobile first
+grilla de maximo 12 columnas

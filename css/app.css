@@ -1,0 +1,12 @@
+body{
+  font-family: 'Poller One', cursive;
+}
+
+#header-container{
+  background: #020202;
+  color: white;
+}
+
+.columna{
+  border: 1px solid red;
+}
