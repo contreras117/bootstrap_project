@@ -1,4 +1,4 @@
-Bootstrap maneja 5 tamaños:
+﻿Bootstrap maneja 5 tamaños:
 Extra small < 544px
 Small >= 544px
 Medium >= 768px
@@ -7,3 +7,9 @@ Extra Large >= 1200px
 
 Mobile first
 grilla de maximo 12 columnas
+En las clases para el tamaño xs no es necesario poner la abreviacion. 
+Los demas tamaños usan las abreviaciones:
+small -> sm
+medium -> md
+large -> lg
+extra large -> xl
