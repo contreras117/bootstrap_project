@@ -6,14 +6,14 @@ body h1{
   font-family: 'Poller One', cursive;
 }
 
-#header-container{
-  background: #020202;
+#header-container, #info-container{
+  background: #99C84A;
   color: #f2f2f2;
   font-weight: 700;
 }
 
 #header-container a{
-	color: #FF1111;
+	color: #f2f2f2;
 	text-decoration: none;
 }
 
@@ -22,22 +22,47 @@ body h1{
 }
 
 #menu-container{
-  background: #f7f7f9;
+  background: #F7F7F9;
 }
 
 .btn.btn-busqueda{
-  background: #020202;
+  background: #99C84A;
   color: #f2f2f2;
 }
 
 .btn.btn-busqueda:hover{
-  background: #FF1111;
+  background: #8AB542;
   color: #f2f2f2;
 }
 
 input.form-control:focus{
-  border-color: #020202;
+  border-color: #99C84A;
   box-shadow: none;
+}
+
+#info-container h4{
+  margin: 1em 0;
+}
+
+#info-container img{
+  margin-top: 1em;
+}
+
+#footer-container{
+  background: #1c3643;
+  color: #f2f2f2;
+  padding: 3em 0;
+}
+
+#footer-container h4,
+#footer-container .nav-link{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+#footer-container .nav-link{
+  color: white;
+  padding: .1em 0;
 }
 
 
